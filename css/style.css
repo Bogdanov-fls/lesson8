@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap');
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+/* ------------------------------ */
+
+.container {
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.promise {
+	margin: 0px 0px 50px 0px;
+}
+
+.promise__subtitle {
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	color: #5D62B5;
+	font-weight: 700;
+	margin: 0px 0px 33px 0px;
+}
+.promise__subtitle::before {
+	content: '';
+	display: inline-block;
+	background-image: url(../img/subtitle.svg);
+	width: 17px;
+	height: 17px;
+	margin-right: 16px;
+}
+
+.promise__title {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+	color: #000;
+	margin: 0px 0px 68px 0px;
+}
+
+.promise__items {}
+
+.promise__item {
+	
+}
+
+.item-promis {
+	display: inline-block;
+}
+.item-promis::before {
+	content: '';
+	display: inline-block;
+	height: 63px;
+	width: 63px;
+	background-position: 0 0;
+	vertical-align: top;
+	margin-right: 25px;
+}
+.item-promis_1::before {
+	background-image: url(../img/01.svg);
+}
+.item-promis_2::before {
+	background-image: url(../img/02.svg);
+}
+.item-promis_3::before {
+	background-image: url(../img/03.svg);
+}
+.item-promis__content {
+	display: inline-block;
+	max-width: 235px;
+}
+
+.item-promis__title {
+	font-size: 19px;
+	line-height: 26px;
+	font-weight: 900;
+	color: #F2726F;
+	margin-bottom: 20px;
+}
+
+.item-promis__text {
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+
+
+.choose {
+	max-width: 255px;
+	background-color: #252525;
+	padding: 24px;
+	padding-bottom: 60px;
+}
+
+.choose__title {
+	font-size: 22px;
+	line-height: 25px;
+	letter-spacing: -0.28px;
+	color: #fff;
+	margin: 0px 0px 36px 0px;
+	
+}
+.choose__title::after {
+	content: '';
+	display: block;
+	width: 56px;
+	height: 2px;
+	background: #34C759;
+	margin-top: 10px;
+}
+
+.choose__text {
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.16px;
+	color: rgba(255, 255, 255, 0.5);
+}
